@@ -1,0 +1,76 @@
+body, html{
+  height: 100%;
+  /* border: green solid 1px; */
+  margin: 0;
+  padding: 0;
+  background-color: darkgray;
+}
+
+/* body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+} */
+
+/* html {
+  padding: 0;
+} */
+
+/* * {
+  border: solid red 1px;
+} */
+
+#newImgBtnCon {
+  margin: 50px 0 30px 0;
+  text-align: center;
+}
+
+.imgContainer {
+  display: flex;
+  justify-content: center;
+}
+
+#mainImg {
+  /* display: block;
+  margin: 50vh auto 0 auto; */
+  height: 50vh;
+}
+
+#likeDlinfo {
+  margin: 30px 0;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+#likeDl {
+  margin: 30px 0 30px 0;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+#likeDl > button {
+  gap: 20px;
+}
+
+#info {
+  text-align: center;
+}
+
+#commentsInput {
+display: flex;
+justify-content: center;
+}
+
+.addComment {
+  width: 40%;
+}
+
+#commentDisplay {
+  background-color: white;
+  width: 50%;
+  margin: auto;
+  word-wrap: break-word;
+}
